@@ -1,10 +1,7 @@
-package studentmanagement;
+package finance;
 
 public class Fee {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public void takeFees(int amount) {
+		System.out.println("Processed fees for an amount of : " + amount + "$");
 	}
-
 }
